@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <style>
+       #container{
+           display: flex;
+           justify-content: space-between;
+           background-color: #1c2937;
+           height: 60px;
+           align-items: center;
+           padding: 0px 20px;
+           border-radius: 20px;
+       }
+       #container>div{
+           display: flex;
+           justify-content: space-evenly;
+           gap: 50px;
+           color: white;
+       }
+   </style>
 </head>
 <body>
-    
+    <div id="container">
+        <div>Reebok</div>
+        <div>
+            <div>Men</div>
+            <div>Women</div>
+            <div>Login</div>
+            <div>Sign Up</div>
+        </div>
+    </div>
 </body>
 </html>
